@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+	.consultation {
+		&__desc {
+			margin-top: 65px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.consultation {
+		&__desc {
+			margin-top: 55px;
+			font-size: 17px;
+		}
+	}
+}
+
+@media (max-width: 574px) {
+	.consultation {
+		&__desc {
+			font-size: 14px;
+			margin-top: 50px;
+		}
+	}
+}

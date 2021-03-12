@@ -1,0 +1,46 @@
+@media (max-width: 991px) {
+	.carousel {
+		.prev {
+			left: -20px;
+		}
+		.next {
+			right: -20px;
+		}
+
+		.tns-item {
+			img {
+				width: 650px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.carousel {
+		padding: 55px 0 40px 0;
+
+		.prev, .next {
+			display: none;
+		}
+
+		.tns-item {
+			img {
+				width: 530px;
+			}
+		}
+	}
+}
+
+@media (max-width: 574px) {
+	.carousel {
+		.tns-ah {
+			height: auto;
+		}
+		
+		.tns-item {
+			img {
+				width: 300px;
+			}
+		}
+	}
+}

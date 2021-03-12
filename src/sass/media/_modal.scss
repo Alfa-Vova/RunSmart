@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+	.modal {
+		width: 360px;
+		min-height: 360px;
+		padding: 20px 30px;
+	}
+}
+
+@media (max-width: 574px) {
+	.modal {
+		width: 320px;
+
+		&__close {
+			right: 10px;
+			top: 10px;
+		}
+		.feed-form_mt25 {
+			width: 100%;
+		}
+	}
+}

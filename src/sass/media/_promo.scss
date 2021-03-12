@@ -1,0 +1,55 @@
+@media (max-width: 991px) {
+	.promo {
+		&__wrapper {
+			margin-top: 70px;
+		}
+
+		&__header {
+			font-size: 38px;
+			line-height: 38px;
+		}
+
+		&__subheader {
+			margin-top: 16px;
+			font-size: 21px;
+			line-height: 21px;
+		}
+
+		&__icons {
+			margin-top: 60px;
+			width: 410px;
+		}
+
+		&__lonk {
+			margin-top: 16px;
+			font-size: 15px;
+		}
+	}
+}
+
+@media (max-width: 574px) {
+	.promo {
+		&__wrapper {
+			align-items: center;
+		}
+
+		&__header {
+			font-size: 35px;
+			text-align: center;
+			line-height: normal;
+		}
+
+		&__subheader {
+			font-size: 13px;
+			line-height: 13px;
+		}
+
+		&__icons {
+			width: 290px;
+		}
+
+		&__link {
+			font-size: 14px;
+		}	
+	}
+}

@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+	.reviews {
+		&-item {
+			flex-direction: column;
+			justify-content: center;
+
+			&__img {
+				margin-right: 0;
+			}
+
+			&__title {
+				text-align: center;
+				margin-top: 25px;
+			}
+
+			&__subtitle {
+				text-align: center;
+			}
+
+			&__descr {
+				text-align: justify;
+				span {
+					display: block;
+					text-align: center;
+				}
+			}
+		}
+	}	
+}
+
+@media (max-width: 574px) {
+	.reviews {
+		&__wrapper {
+			margin-top: 0;
+		}
+		&-item {
+			margin: 30px 15px;
+
+			&__title {
+				font-size: 16px;
+			}
+
+			&__subtitle {
+				font-size: 12px;
+			}
+
+			&__descr {
+				font-size: 14px;
+			}
+		}
+	}
+}

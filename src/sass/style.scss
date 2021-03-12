@@ -1,0 +1,37 @@
+@import 'base/variables'; /*не забувай класти лапки*/
+@import 'base/animations';
+* {
+	font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/benefits';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+// Адаптація
+@import 'media/container';
+@import 'media/promo';
+@import 'media/header';
+@import 'media/button';
+@import 'media/benefits';
+@import 'media/title';
+@import 'media/consultation';
+@import 'media/carousel';
+@import 'media/catalog';
+@import 'media/reviews';
+@import 'media/footer';
+@import 'media/modal';
